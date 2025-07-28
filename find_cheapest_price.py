@@ -1,7 +1,6 @@
-# find_cheapest_price.py
-from typing import List # <--- ADD THIS LINE
+from typing import List
 
-def find_cheapest_price(n: int, flights: List[List[int]], src: int, dst: int, k: int) -> int: # <--- USE List here
+def find_cheapest_price(n: int, flights: List[List[int]], src: int, dst: int, k: int) -> int:
     """
     Finds the cheapest price from src to dst with at most k stops using a Bellman-Ford like approach.
 

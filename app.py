@@ -1,7 +1,6 @@
-# app.py
 import json
 import os
-import glob # <--- ADD THIS LINE
+import glob
 from find_cheapest_price import find_cheapest_price
 
 def run_test_case(input_file_path):
